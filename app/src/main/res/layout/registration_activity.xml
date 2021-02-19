@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_colour"
+    tools:context=".Activities.Registration_Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_colour"
+        android:orientation="vertical">
+
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/main_lay1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/lay_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/box"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/ic_passenger" />
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/ed_Reg_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_vertical"
+                            android:inputType="number"
+                            android:layout_marginLeft="10dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/montserrat"
+                            android:hint="Employee Id."
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/txt_f_color"
+                            android:textSize="16sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+                <!--END FIRST NAME FIELD-->
+
+
+                <!--START SURNAME FIELD-->
+                <LinearLayout
+                    android:id="@+id/lay_surname"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/lay_username"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/box"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="1dp"
+                        android:layout_marginStart="0dp"
+                        android:background="@drawable/ic_passenger"
+                        android:layout_marginLeft="0dp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/ed_full_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/montserrat"
+                            android:hint="Full Name"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/txt_f_color"
+                            android:textSize="16sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <!--ENd SURNAME FIELD-->
+
+
+                <!--START CONTACT NUMBER FIELD-->
+                <LinearLayout
+                    android:id="@+id/lay_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/lay_username"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/box"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="1dp"
+                        android:layout_marginStart="0dp"
+                        android:background="@drawable/ic_email"
+                        android:layout_marginLeft="0dp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/ed_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/montserrat"
+                            android:hint="Enter CNIC with out dash "
+                            android:inputType="number"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/txt_f_color"
+                            android:textSize="16sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+                </LinearLayout>
+                <!--END CONTACT NUMBER FIELD-->
+
+
+                <!--EMAIL FIELD CODE-->
+                <LinearLayout
+                    android:id="@+id/lay_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/lay_username"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/box"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="1dp"
+                        android:layout_marginStart="0dp"
+                        android:background="@drawable/ic_contactno"
+                        android:layout_marginLeft="0dp" />
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/ed_contact"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/montserrat"
+                            android:hint="Contact Number"
+                            android:inputType="numberDecimal"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/txt_f_color"
+                            android:textSize="16sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+                <!--START BUTTONS LAY CANCEL & SUBMIT-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp">
+
+
+                    <!--START BUTTONS CANCEL-->
+                    <RelativeLayout
+                        android:id="@+id/btn_cancel_reg"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:visibility="gone"
+                        android:layout_alignParentLeft="true">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/source_code_pro_semibold"
+                            android:text="Cancel"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+
+                    </RelativeLayout>
+                    <!--END BUTTONS CANCEL-->
+
+                    <!--START BUTTONS SUBMIT-->
+                    <RelativeLayout
+                        android:id="@+id/btn_submit_reg"
+                        android:layout_width="150dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentEnd="true"
+                        android:padding="15dp"
+                        android:background="@drawable/register"
+                        android:layout_alignParentRight="true">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/montserrat"
+                            android:text="Register"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+
+                    </RelativeLayout>
+                    <!--END BUTTONS SUBMIT-->
+
+
+                </RelativeLayout>
+                <!--END BUTTONS LAY CANCEL & SUBMIT-->
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

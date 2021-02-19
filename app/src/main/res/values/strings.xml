@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Abasyn Transport Application</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="notification_channel_id">825</string>
+    <string name="About_us">
+    <p>Abasyn University Peshawar is chartered by the Government of Khyber Pakhtunkhwa (KPK) and recognized by the Higher Education Commission (HEC), Pakistan. Abasyn University was the only university in KPK which was awarded category <b>"W"</b> at the inception which was the highest category to be awarded to any institution in the old ranking system by HEC. By the Grace of ALLAH and the support of sponsors and staff, according to the recent Higher Education Commission (HEC) ranking in 2014 announced in May 2015, Abasyn University is:</p>
+    <p><b><i>Ranked #1 in Khyber Pakhtunkhwa in Private Sector Universities (General Category).</i></b></p>\n
+    <p><b><i>Ranked #6 in the all Private Sector Universities (General Category).</i></b></p>\n
+    <p><b><i>Ranked #25 in the all Private and Public Universities of Pakistan (General Category).</i></b></p>\n
+    <p>Abasyn University offers degree programs in various disciplines including Engineering, Computer Science, Business Administration, Pharmacy, Microbiology, Education and Technology. National Computing Education Accreditation Council (NCEAC), Pakistan has accredited BS in Computer Science and BS in Software Engineering programs offered by the University. The University has been accredited by the Pharmacy Council of Pakistan. The University is also allowed by the Pakistan Engineering Council to offer BE in Electrical Engineering and BE in Civil Engineering programs.</p>
+    </string>
+    <string name="procedure">
+     1. First of all Fill the Registration Number field with original Number other wise your Registration should not complete.\n
+     2. Fill all fileds care fully and fill with original data any fake data deos not accept.\n
+     3. when click on Registrar button the process will begin and check your data if your data is orignal then show you a diaglog which is call One Time password(OTP) dialog where you enter the 4 digit code which sended you on the provided Gmail.\n
+     4. if you provided the other email address which not accessible then change your email address and then check OTP.\n
+     5. if show you that your registration Number is not exist . So please wait for few day data base is populating.
+
+ </string>
+</resources>
